@@ -1,0 +1,23 @@
+@use "../presets" as *;
+@use "../presets" as *;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: $font-primary;
+    font-size: $font-size;
+}
+body {
+
+}
+
+a {
+    text-decoration: none;
+}
+
